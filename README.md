@@ -2,9 +2,9 @@
 
 Team Name: VendorIQ
 
-- Anisetti Chaitanya Lakshmi, 23071A7205
-- Kodali Laxmi Yasasvi, 23071A7233
-- Sankepally Abhinaya, 23071A7254
+- Anisetti Chaitanya Lakshmi
+- Kodali Laxmi Yasasvi
+- Sankepally Abhinaya Reddy 
 
 
 # VendorIQ — Intelligent Next Best Action Platform
@@ -13,6 +13,35 @@ Team Name: VendorIQ
 > Built for Hackathon: **Intelligent Next Best Action Platform**
 
 ---
+## Installation
+
+1. Clone the repository
+
+git clone <repository-url>
+
+2. Install frontend dependencies
+
+cd frontend
+npm install
+
+3. Install backend dependencies
+
+cd ../backend
+npm install
+
+4. Start the project
+
+npm start
+
+## Features
+
+- AI-powered vendor risk assessment
+- Intelligent vendor onboarding workflow
+- Role-based authentication
+- Vendor document verification
+- Risk score generation
+- Dashboard for vendor analytics
+- Secure REST APIs
 
 ## What is VendorIQ?
 
