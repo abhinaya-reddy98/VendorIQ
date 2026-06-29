@@ -1,0 +1,108 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-bg: #f7f8fc;
+    --color-surface: #ffffff;
+    --color-border: #e6ebf4;
+    --color-text: #0f172a;
+    --color-muted: #6b7280;
+    --color-accent: #4f46e5;
+    --color-accent-soft: #eef2ff;
+    --color-accent-strong: #312e81;
+    --color-success: #0f766e;
+    --color-warning: #b45309;
+    --color-danger: #b91c1c;
+    --shadow-soft: 0 18px 60px rgba(15, 23, 42, 0.08);
+    --radius: 1rem;
+  }
+
+  .dark {
+    color-scheme: dark;
+    --color-bg: #080b16;
+    --color-surface: #111827;
+    --color-border: #1f2937;
+    --color-text: #f8fafc;
+    --color-muted: #94a3b8;
+    --color-accent: #818cf8;
+    --color-accent-soft: #161d3a;
+    --color-accent-strong: #c7d2fe;
+    --color-success: #4ade80;
+    --color-warning: #f59e0b;
+    --color-danger: #f87171;
+    --shadow-soft: 0 18px 60px rgba(0, 0, 0, 0.35);
+    --radius: 1rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: radial-gradient(circle at top left, rgba(79, 70, 229, 0.12), transparent 28%),
+      linear-gradient(180deg, var(--color-bg) 0%, var(--color-bg) 100%);
+    color: var(--color-text);
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.35s ease, color 0.35s ease;
+  }
+
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ::selection {
+    background: rgba(79, 70, 229, 0.16);
+    color: var(--color-text);
+  }
+}
+
+@layer utilities {
+  .card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-soft);
+  }
+
+  .section-heading {
+    font-size: 0.85rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--color-muted);
+  }
+
+  .glass-panel {
+    background: rgba(255,255,255,0.72);
+    backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.45);
+  }
+
+  .btn-primary {
+    background: var(--color-accent);
+    color: #ffffff;
+    border-radius: 999px;
+    box-shadow: 0 12px 30px rgba(79, 70, 229, 0.18);
+  }
+
+  .btn-secondary {
+    background: var(--color-surface);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+  }
+}

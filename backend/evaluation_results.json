@@ -1,0 +1,96 @@
+{
+  "recommendation_accuracy": 72.0,
+  "recommendation_report": {
+    "Approve Vendor": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "Reject Vendor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12.0
+    },
+    "Request Missing Documents": {
+      "precision": 0.8253968253968254,
+      "recall": 0.7647058823529411,
+      "f1-score": 0.7938931297709922,
+      "support": 68.0
+    },
+    "Escalate for Manual Review": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 0.0
+    },
+    "accuracy": 0.72,
+    "macro avg": {
+      "precision": 0.45634920634920634,
+      "recall": 0.4411764705882353,
+      "f1-score": 0.4484732824427481,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.7612698412698413,
+      "recall": 0.72,
+      "f1-score": 0.7398473282442748,
+      "support": 100.0
+    }
+  },
+  "compliance_accuracy": 94.0,
+  "compliance_field_accuracies": {
+    "GST": 94.0,
+    "PAN": 95.0,
+    "ISO": 93.0,
+    "Bank": 92.0,
+    "Registration": 95.0,
+    "Audit": 95.0
+  },
+  "missing_doc_detection_rate": 97.0,
+  "rag_precision": 83.0,
+  "hallucination_rate": 8.0,
+  "human_agreement_rate": 92.0,
+  "human_agreement_breakdown": {
+    "Approve Vendor": 90.0,
+    "Request Missing Documents": 93.65,
+    "Escalate for Manual Review": 88.24
+  },
+  "processing_time": {
+    "mean_sec": 6.569,
+    "median_sec": 6.63,
+    "std_sec": 2.118,
+    "min_sec": 2.58,
+    "max_sec": 13.73,
+    "p95_sec": 9.872
+  },
+  "document_extraction_accuracy": 90.8,
+  "risk_accuracy": 100.0,
+  "explainability_score": 97.55,
+  "explainability_components": {
+    "has_reason_%": 100.0,
+    "has_evidence_%": 93.0,
+    "has_policy_%": 100.0
+  },
+  "evidence_traceability": 88.0,
+  "pipeline_success_rate": 96.0,
+  "api_response_time": {
+    "mean_sec": 5.163,
+    "median_sec": 5.23,
+    "p95_sec": 8.474,
+    "max_sec": 9.98
+  },
+  "decision_consistency": 33.33,
+  "manual_effort_reduction": {
+    "total_vendors": 100,
+    "baseline_hours_each": 4.0,
+    "total_baseline_hours": 400.0,
+    "actual_hours_saved": 363.8,
+    "reduction_percent": 90.96,
+    "avg_hours_saved": 3.64
+  },
+  "overall_score": 85.94,
+  "generated_at": "2026-06-29T14:55:56.091980Z",
+  "total_vendors": 100
+}

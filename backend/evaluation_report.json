@@ -1,0 +1,148 @@
+{
+  "evaluation_run": {
+    "timestamp": "2026-06-29T14:55:18.504839",
+    "scenarios_evaluated": 5,
+    "tool": "VendorIQ Evaluation Pipeline v1.0"
+  },
+  "accuracy": {
+    "risk_classification_accuracy_pct": 100.0,
+    "recommendation_accuracy_pct": 100.0,
+    "average_confidence_pct": 89.6
+  },
+  "latency_ms": {
+    "document_agent_avg": 15.8,
+    "compliance_agent_avg": 0.4,
+    "risk_agent_avg": 0.0,
+    "decision_agent_avg": 4873.4,
+    "total_pipeline_avg": 4890.2
+  },
+  "scenario_results": [
+    {
+      "scenario_id": "SC-001",
+      "vendor_name": "Nexus Manufacturing Pvt Ltd",
+      "risk_level": "Low",
+      "recommendation": "Approve Vendor",
+      "confidence_score": 0.95,
+      "compliance_score": 100.0,
+      "violations": 0,
+      "missing_docs": [],
+      "risk_match": true,
+      "rec_match": true,
+      "compliance_ok": true,
+      "total_ms": 4892,
+      "agent_latencies": {
+        "document_ms": 13,
+        "compliance_ms": 2,
+        "risk_ms": 0,
+        "decision_ms": 4877
+      },
+      "next_best_action": "Proceed with vendor master data creation and initiate the first purchase order process for Nexus Manufacturing Pvt Ltd.",
+      "reason": "The vendor, Nexus Manufacturing Pvt Ltd, meets all critical onboarding criteria with a 100% overall compliance score, a low-risk assessment, and zero violations. All required documents are present and verified, including valid ISO certification and a strong factory audit score.",
+      "timestamp": "2026-06-29T14:54:58.945549"
+    },
+    {
+      "scenario_id": "SC-002",
+      "vendor_name": "Sunrise Textiles Ltd",
+      "risk_level": "Medium",
+      "recommendation": "Request Missing Documents",
+      "confidence_score": 0.85,
+      "compliance_score": 83.3,
+      "violations": 1,
+      "missing_docs": [
+        "ISO Certificate"
+      ],
+      "risk_match": true,
+      "rec_match": true,
+      "compliance_ok": true,
+      "total_ms": 5427,
+      "agent_latencies": {
+        "document_ms": 17,
+        "compliance_ms": 0,
+        "risk_ms": 0,
+        "decision_ms": 5409
+      },
+      "next_best_action": "Contact Sunrise Textiles Ltd immediately to request the valid ISO Certificate, including its expiry date. Once received, re-evaluate the vendor's compliance and risk profile.",
+      "reason": "The vendor, Sunrise Textiles Ltd, is missing a critical ISO Certificate, which is essential for a complete compliance check and quality assurance. This document needs to be submitted to proceed with the onboarding process and allow for a comprehensive risk assessment.",
+      "timestamp": "2026-06-29T14:55:04.372405"
+    },
+    {
+      "scenario_id": "SC-003",
+      "vendor_name": "Global Tech Solutions Pvt",
+      "risk_level": "High",
+      "recommendation": "Request Missing Documents",
+      "confidence_score": 0.88,
+      "compliance_score": 50.0,
+      "violations": 3,
+      "missing_docs": [
+        "Factory Audit Report",
+        "Company Registration Certificate",
+        "ISO Certificate"
+      ],
+      "risk_match": true,
+      "rec_match": true,
+      "compliance_ok": true,
+      "total_ms": 4608,
+      "agent_latencies": {
+        "document_ms": 11,
+        "compliance_ms": 0,
+        "risk_ms": 0,
+        "decision_ms": 4596
+      },
+      "next_best_action": "Contact Global Tech Solutions Pvt to formally request the Factory Audit Report, Company Registration Certificate, and ISO Certificate. Provide a clear deadline for submission and inform them that the onboarding process is on hold until these documents are received and verified.",
+      "reason": "The vendor onboarding request is missing critical compliance and operational documents, specifically the ISO Certificate, Factory Audit Report, and Company Registration Certificate. These documents are essential for a complete risk assessment and to ensure the vendor meets our minimum compliance standards.",
+      "timestamp": "2026-06-29T14:55:08.980487"
+    },
+    {
+      "scenario_id": "SC-004",
+      "vendor_name": "BrightPath Logistics",
+      "risk_level": "High",
+      "recommendation": "Request Missing Documents",
+      "confidence_score": 0.85,
+      "compliance_score": 16.7,
+      "violations": 5,
+      "missing_docs": [
+        "PAN Card",
+        "Factory Audit Report",
+        "Company Registration Certificate",
+        "ISO Certificate",
+        "GST Certificate"
+      ],
+      "risk_match": true,
+      "rec_match": true,
+      "compliance_ok": true,
+      "total_ms": 4201,
+      "agent_latencies": {
+        "document_ms": 6,
+        "compliance_ms": 0,
+        "risk_ms": 0,
+        "decision_ms": 4194
+      },
+      "next_best_action": "Contact BrightPath Logistics immediately to request the missing GST Certificate, PAN Card, Company Registration Certificate, ISO Certificate, and Factory Audit Report. Provide a clear deadline for submission.",
+      "reason": "The vendor onboarding request is missing critical compliance documents, including GST, PAN, ISO, and company registration. These documents are essential for legal compliance, risk assessment, and ensuring the vendor meets our minimum due diligence requirements.",
+      "timestamp": "2026-06-29T14:55:13.181268"
+    },
+    {
+      "scenario_id": "SC-005",
+      "vendor_name": "AlphaSecure Systems",
+      "risk_level": "Low",
+      "recommendation": "Approve Vendor",
+      "confidence_score": 0.95,
+      "compliance_score": 100.0,
+      "violations": 0,
+      "missing_docs": [],
+      "risk_match": true,
+      "rec_match": true,
+      "compliance_ok": true,
+      "total_ms": 5323,
+      "agent_latencies": {
+        "document_ms": 32,
+        "compliance_ms": 0,
+        "risk_ms": 0,
+        "decision_ms": 5291
+      },
+      "next_best_action": "Proceed with contract finalization and integrate AlphaSecure Systems into the approved vendor list within the ERP system.",
+      "reason": "AlphaSecure Systems has successfully met all stringent onboarding criteria, demonstrating a 100% overall compliance score, a low-risk profile, and zero violations. All required documents are present and verified.",
+      "timestamp": "2026-06-29T14:55:18.504077"
+    }
+  ]
+}
