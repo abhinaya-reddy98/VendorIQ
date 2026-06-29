@@ -1,6 +1,6 @@
 ## Team
 
-Team Name: 
+Team Name: VendorIQ
 
 - Anisetti Chaitanya Lakshmi, 23071A7205
 - Kodali Laxmi Yasavi, 23071A7233
