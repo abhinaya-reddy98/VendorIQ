@@ -2,9 +2,9 @@
 
 Team Name: VendorIQ
 
-- Anisetti Chaitanya Lakshmi, 23071A7205
-- Kodali Laxmi Yasavi, 23071A7233
-- Sankepally Abhinaya, 23071A7254
+- Anisetti Chaitanya Lakshmi
+- Kodali Laxmi Yasavi
+- Sankepally Abhinaya Reddy 
 
 
 # VendorIQ — Intelligent Next Best Action Platform
