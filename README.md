@@ -13,6 +13,26 @@ Team Name: VendorIQ
 > Built for Hackathon: **Intelligent Next Best Action Platform**
 
 ---
+## Installation
+
+1. Clone the repository
+
+git clone <repository-url>
+
+2. Install frontend dependencies
+
+cd frontend
+npm install
+
+3. Install backend dependencies
+
+cd ../backend
+npm install
+
+4. Start the project
+
+npm start
+
 ## Features
 
 - AI-powered vendor risk assessment
