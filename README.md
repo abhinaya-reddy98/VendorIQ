@@ -13,6 +13,15 @@ Team Name: VendorIQ
 > Built for Hackathon: **Intelligent Next Best Action Platform**
 
 ---
+## Features
+
+- AI-powered vendor risk assessment
+- Intelligent vendor onboarding workflow
+- Role-based authentication
+- Vendor document verification
+- Risk score generation
+- Dashboard for vendor analytics
+- Secure REST APIs
 
 ## What is VendorIQ?
 
