@@ -3,7 +3,7 @@
 Team Name: VendorIQ
 
 - Anisetti Chaitanya Lakshmi
-- Kodali Laxmi Yasavi
+- Kodali Laxmi Yasasvi
 - Sankepally Abhinaya Reddy 
 
 
